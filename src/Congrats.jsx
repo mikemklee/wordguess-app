@@ -9,7 +9,7 @@ import React from "react";
 export default props => {
   if (props.success) {
     return (
-      <div data-test="component-congrats">
+      <div className="alert alert-success" data-test="component-congrats">
         <span data-test="congrats-message">
           Good job! you guessed the word!
         </span>
